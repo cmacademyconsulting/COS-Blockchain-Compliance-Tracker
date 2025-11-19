@@ -28,7 +28,15 @@ COS™ transforms compliance events into immutable blockchain records, coupled w
 ---
 
 ## 🛠️ Quick Start
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) v18 or later  
+- [npm](https://www.npmjs.com/) (comes with Node.js)  
+- Git (for cloning the repository)
+
+### Setup
 1. Clone the repository:
    ```bash
    git clone https://github.com/<OWNER>/COS-Blockchain-Compliance-Tracker.git
    cd COS-Blockchain-Compliance-Tracker
+
