@@ -48,6 +48,7 @@ Scores published to DKG for querying.
 
 Demo Video
 Kept the demo video: Governance event → Tx ID → DKG note → Reputation score → Dashboard view.
+
 ⚖️ Ethics‑First Commitments
 Aligned /docs/ethics_statement.md for transparency, accountability, and sustainability principles.
 License: CC BY 4.0.
