@@ -84,7 +84,39 @@ Ethics-first governance: Transparency achieved.
   → Run the demo in Command Prompt instead:  
   ```cmd
   npm.cmd run demo
- 
+
+---
+
+### 2. Split Commands and Output in Tested Session
+Right now, commands and output are in the same block. Separate them:
+
+```markdown
+### Commands Run
+```bash
+cd COS-Blockchain-Compliance-Tracker
+npm install
+npm run demo
+🌐 Connected to: Sepolia Testnet
+✅ COS™ Demo: Latest Block Number = 9667096
+┌─────────┬───────────────┬────────────┬─────────┬────────────────────────────┐
+│ (index) │ Event         │ TxID       │ Block   │ Timestamp                  │
+├─────────┼───────────────┼────────────┼─────────┼────────────────────────────┤
+│ 0       │ Audit Start   │ 0x123...   │ 9667096 │ 2025-11-20T07:11:24.446Z   │
+└─────────┴───────────────┴────────────┴─────────┴────────────────────────────┘
+Ethics-first governance: Transparency achieved.
+
+## 👩‍⚖️ Judge Walkthrough
+1. Clone the repo and enter the folder.  
+2. Run `npm install`.  
+3. Copy `.env.example` → `.env` and insert Infura Project ID.  
+4. Run `npm.cmd run demo` in Command Prompt.  
+5. Confirm blockchain audit table shows block number + timestamp.  
+
+ ![COS Banner](assets/banner.png)
+- [Whitepaper](docs/whitepaper.pdf)  
+- [Manifesto Poster](docs/poster.png)  
+- [Zenodo DOI](https://zenodo.org/record/xxxxxx)  
+
 
 ## 🎬 Demo Assets
 - **Screenshots:**  
