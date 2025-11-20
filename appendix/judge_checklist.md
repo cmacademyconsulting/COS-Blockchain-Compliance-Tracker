@@ -88,6 +88,4 @@ Governance Framework: /docs/governance_framework.md
 
 Challenge Alignment: /docs/challenge_alignment.md
 
-Code
-
 ---
