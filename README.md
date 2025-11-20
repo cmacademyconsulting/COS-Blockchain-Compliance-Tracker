@@ -1,4 +1,4 @@
----
+
 
 ## 🏆 Hackathon Submission: OriginTrail Scaling Trust in the Age of AI
 
