@@ -65,3 +65,10 @@ COS™ Blockchain Compliance Tracker embeds **ethics‑first governance** into A
 - **AI Governance Researchers:** Access reproducible framework for embedding ethics into AI workflows.  
 
 ---
+🛠️ Technical Implementation
+- Blockchain Layer: Polkadot Westend/Paseo testnets (Tx IDs verified via Polkadot.js Apps).
+- Knowledge Layer: OriginTrail DKG Edge Node integration (Knowledge Assets published in JSON‑LD/RDF with provenance).
+- Agent Layer: MCP agents query compliance notes and ESG metrics.
+- Trust Layer: Reputation scores computed and exposed via DKG APIs.
+- Premium Access: High‑confidence data gated via x402 micropayments.
+- Fallback Demo: Plain‑text script ensures reproducibility across judge environments.
