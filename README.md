@@ -79,11 +79,12 @@ Ethics-first governance: Transparency achieved.
 - [ ] Blockchain audit table displayed with block number + timestamp  
 
 ## 🛠️ Troubleshooting
-- **Error: ENOENT (package.json not found)** → Ensure you are inside the project folder:  
-  `cd COS-Blockchain-Compliance-Tracker`  
-- **Error: Missing .env file** → Copy `.env.example` → `.env` and insert your Infura Project ID.  
-- **npm audit warnings** → Run `npm audit fix`. Known warnings do not affect demo functionality.  
-- **Network issues** → Verify internet connection and Infura Project ID.  
+
+- **Error: `npm.ps1 cannot be loaded` in PowerShell**  
+  → Run the demo in Command Prompt instead:  
+  ```cmd
+  npm.cmd run demo
+ 
 
 ## 🎬 Demo Assets
 - **Screenshots:**  
