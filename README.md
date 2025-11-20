@@ -1,10 +1,18 @@
-
-
 ## 🏆 Hackathon Submission: OriginTrail Scaling Trust in the Age of AI
 
 **Event:** [OriginTrail Global Hackathon 2025](https://dorahacks.io/hackathon/origintrail-scaling-trust-ai/detail)  
-**Track(s):** 📝 *Decentralized Community Notes* + 🗣️ *Social Graph Reputation*  
+**Track(s):** 📝 Decentralized Community Notes + 🗣️ Social Graph Reputation  
 **Theme:** Ethics‑First Governance for AI and Infrastructure Projects  
+
+---
+
+### 🚀 Quick Start
+1. Open https://polkadot.js.org/apps (Westend/Paseo).  
+2. Copy a Tx ID from `/appendix/audit_table.csv`.  
+3. Paste into the explorer, verify block number and account.  
+4. Run demo (`npm run demo` or `npm.cmd run demo`).  
+5. Confirm compliance notes and reputation scores published to OriginTrail DKG.  
+6. Review `/docs/ethics_statement.md` for governance commitments.  
 
 ---
 
@@ -16,23 +24,23 @@ COS™ Blockchain Compliance Tracker embeds **ethics‑first governance** into A
 ### ✨ Challenge Alignment
 
 #### 📝 Decentralized Community Notes
-- COS™ logs compliance and oversight events as **fact‑check triples**.  
-- Each event (e.g., safety inspection, donor compliance report) is hashed and immutably recorded.  
-- Notes are published to the DKG in JSON‑LD/RDF format with provenance.  
-- This combats misinformation by linking ESG milestones to verifiable Tx IDs.  
+- Logs compliance and oversight events as **fact‑check triples**.  
+- Publishes notes to DKG in JSON‑LD/RDF with provenance.  
+- Combats misinformation by linking ESG milestones to verifiable Tx IDs.  
 
 #### 🗣️ Social Graph Reputation
-- COS™ oversight logs are mapped into **reputation scores** for auditors, contractors, and agencies.  
-- Reputation is computed using transparent signals (frequency of verified compliance events, ESG contributions).  
-- Scores are published to the DKG for querying, enabling trusted feeds and governance dashboards.  
+- Maps oversight logs into **reputation scores** for auditors, contractors, and agencies.  
+- Scores computed using transparent signals (frequency of verified compliance events, ESG contributions).  
+- Published to DKG for querying, enabling trusted feeds and governance dashboards.  
 
 ---
 
 ### 🛠️ Technical Implementation
 - **Blockchain Layer:** Polkadot Westend/Paseo testnets (Tx IDs verified via Polkadot.js Apps).  
-- **Knowledge Layer:** OriginTrail DKG Edge Node integration (Knowledge Assets published with provenance).  
+- **Knowledge Layer:** OriginTrail DKG Edge Node integration (Knowledge Assets published in JSON‑LD/RDF with provenance).  
 - **Agent Layer:** MCP agents query compliance notes and ESG metrics.  
 - **Trust Layer:** Reputation scores computed and exposed via DKG APIs.  
+- **Premium Access:** High‑confidence data gated via x402 micropayments.  
 - **Fallback Demo:** Plain‑text script ensures reproducibility across judge environments.  
 
 ---
@@ -63,12 +71,3 @@ COS™ Blockchain Compliance Tracker embeds **ethics‑first governance** into A
 - **Project Managers:** Streamline compliance oversight with transparent reputation scoring.  
 - **Communities:** Assured ethical delivery of projects with sustainability indices.  
 - **AI Governance Researchers:** Access reproducible framework for embedding ethics into AI workflows.  
-
----
-🛠️ Technical Implementation
-- Blockchain Layer: Polkadot Westend/Paseo testnets (Tx IDs verified via Polkadot.js Apps).
-- Knowledge Layer: OriginTrail DKG Edge Node integration (Knowledge Assets published in JSON‑LD/RDF with provenance).
-- Agent Layer: MCP agents query compliance notes and ESG metrics.
-- Trust Layer: Reputation scores computed and exposed via DKG APIs.
-- Premium Access: High‑confidence data gated via x402 micropayments.
-- Fallback Demo: Plain‑text script ensures reproducibility across judge environments.
