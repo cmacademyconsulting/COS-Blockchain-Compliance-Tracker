@@ -1,4 +1,4 @@
-## 🏆 Hackathon Submission: OriginTrail Scaling Trust in the Age of AI
+# 🏆 Hackathon Submission: OriginTrail Scaling Trust in the Age of AI
 
 **Event:** [OriginTrail Global Hackathon 2025](https://dorahacks.io/hackathon/origintrail-scaling-trust-ai/detail)  
 **Track(s):** 📝 Decentralized Community Notes + 🗣️ Social Graph Reputation  
@@ -6,7 +6,7 @@
 
 ---
 
-### 🚀 Quick Start
+## 🚀 Quick Start
 1. Open https://polkadot.js.org/apps (Westend/Paseo).  
 2. Copy a Tx ID from `/appendix/audit_table.csv`.  
 3. Paste into the explorer, verify block number and account.  
@@ -16,25 +16,26 @@
 
 ---
 
-### 🔧 Project Overview
+## 🔧 Project Overview
 COS™ Blockchain Compliance Tracker embeds **ethics‑first governance** into AI and donor‑funded infrastructure projects. It transforms governance events into **immutable blockchain records** linked to transaction IDs, block numbers, and timestamps. These records are extended into **OriginTrail DKG Knowledge Assets**, enabling verifiable compliance, oversight, and sustainability metrics.
 
 ---
 
-### ✨ Challenge Alignment
+## ✨ Challenge Alignment
 
-#### Decentralized Community Notes
-Ethics‑First Logging: Every compliance and oversight event is recorded as a fact‑check triple (Event → VerifiedBy → TxID), ensuring transparency and accountability.
-Provenance & Trust: Notes are published to the OriginTrail DKG in JSON‑LD/RDF format with provenance, guaranteeing that each ESG milestone is traceable to its source.
-Combating Misinformation: By linking sustainability claims (e.g., safety inspections, carbon permits, gender inclusion reports) to verifiable Tx IDs, COS™ prevents false reporting and deepfakes, reinforcing ethical governance.
+### 📝 Decentralized Community Notes
+- **Ethics‑First Logging:** Every compliance and oversight event is recorded as a fact‑check triple (`Event → VerifiedBy → TxID`), ensuring transparency and accountability.  
+- **Provenance & Trust:** Notes are published to the OriginTrail DKG in **JSON‑LD/RDF format with provenance**, guaranteeing that each ESG milestone is traceable to its source.  
+- **Combating Misinformation:** By linking sustainability claims (e.g., safety inspections, carbon permits, gender inclusion reports) to **verifiable Tx IDs**, COS™ prevents false reporting and deepfakes, reinforcing ethical governance.  
 
-#### 🗣️ Social Graph Reputation
-Accountability Scoring: Oversight logs are mapped into reputation scores for auditors, contractors, and agencies, rewarding ethical performance and exposing negligence.
-Transparent Signals: Scores are computed using frequency of verified compliance events and ESG contributions, ensuring fairness and openness.
-Community Impact: Published to the DKG for querying, these scores power trusted feeds and governance dashboards, giving donors, managers, and communities real‑time visibility into ethical performance.
+### 🗣️ Social Graph Reputation
+- **Accountability Scoring:** Oversight logs are mapped into **reputation scores** for auditors, contractors, and agencies, rewarding ethical performance and exposing negligence.  
+- **Transparent Signals:** Scores are computed using **frequency of verified compliance events** and **ESG contributions**, ensuring fairness and openness.  
+- **Community Impact:** Published to the DKG for querying, these scores power **trusted feeds and governance dashboards**, giving donors, managers, and communities real‑time visibility into ethical performance.  
+
 ---
 
-### 🛠️ Technical Implementation
+## 🛠️ Technical Implementation
 - **Blockchain Layer:** Polkadot Westend/Paseo testnets (Tx IDs verified via Polkadot.js Apps).  
 - **Knowledge Layer:** OriginTrail DKG Edge Node integration (Knowledge Assets published in JSON‑LD/RDF with provenance).  
 - **Agent Layer:** MCP agents query compliance notes and ESG metrics.  
@@ -44,7 +45,7 @@ Community Impact: Published to the DKG for querying, these scores power trusted 
 
 ---
 
-### ⚖️ Ethics‑First Commitment
+## ⚖️ Ethics‑First Commitment
 - **Transparency:** Immutable blockchain records linked to DKG Knowledge Assets.  
 - **Accountability:** Oversight logs mapped to verifiable Tx IDs.  
 - **Sustainability:** ESG metrics aggregated into a Sustainability Index.  
@@ -52,7 +53,7 @@ Community Impact: Published to the DKG for querying, these scores power trusted 
 
 ---
 
-### 📂 Submission Package
+## 📂 Submission Package
 - **GitHub Repo:** [link to repo]  
 - **Demo Video:** [link to demo video]  
 - **Working Paper (Zenodo DOI):** https://doi.org/10.5281/zenodo.17620309  
@@ -62,11 +63,17 @@ Community Impact: Published to the DKG for querying, these scores power trusted 
   - Run demo (`npm run demo` or `npm.cmd run demo`)  
   - Verify Tx IDs via Polkadot.js Apps + DKG Edge Node  
   - Confirm compliance notes and reputation scores published to DKG  
+  - Watch demo video (2 min) showing governance event → Tx ID → DKG note → reputation score  
 
 ---
 
-### 📊 Impact
-- **Donors:** Gain confidence in fund allocation through verifiable ESG notes.  
-- **Project Managers:** Streamline compliance oversight with transparent reputation scoring.  
-- **Communities:** Assured ethical delivery of projects with sustainability indices.  
+## 📊 Impact
+- **Donors:** Gain confidence in fund allocation through verifiable ESG notes and ethical assurance.  
+- **Project Managers:** Streamline compliance oversight with transparent reputation scoring and accountability.  
+- **Communities:** Assured ethical delivery of projects with sustainability indices backed by immutable records.  
 - **AI Governance Researchers:** Access reproducible framework for embedding ethics into AI workflows.  
+
+---
+
+## 🔑 Keywords
+Governance · ESG · Blockchain · Compliance · Audit trail · Donor transparency · Ethics‑first · OriginTrail · Polkadot · DKG · MCP · x402
