@@ -91,11 +91,3 @@ Challenge Alignment: /docs/challenge_alignment.md
 Code
 
 ---
-
-## ✅ Why This Version Works
-- **Neutral tone:** Descriptive, not instructive.  
-- **Consistent formatting:** Easier for judges to skim.  
-- **Ethics‑first emphasis:** References to commitments and reproducibility assets remain visible.  
-- **Professional polish:** Reads like documentation, not instructions.
-
----
