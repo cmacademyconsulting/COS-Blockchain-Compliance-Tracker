@@ -32,11 +32,77 @@ COS™ transforms compliance events into immutable blockchain records, coupled w
 ### Prerequisites
 - [Node.js](https://nodejs.org/) v18 or later  
 - [npm](https://www.npmjs.com/) (comes with Node.js)  
-- Git (for cloning the repository)
+- Git (for cloning the repository)  
+- An [Infura](https://infura.io/) Project ID (free account)
+
+---
 
 ### Setup
-1. Clone the repository:
+
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/<OWNER>/COS-Blockchain-Compliance-Tracker.git
+   git clone https://github.com/cmacademyconsulting/COS-Blockchain-Compliance-Tracker.git
    cd COS-Blockchain-Compliance-Tracker
 
+
+---
+
+## 🧪 Tested Session (Proof of Reproducibility)
+
+The following session was executed on:
+
+- **OS:** Windows 11  
+- **Node.js:** v24.11.1  
+- **npm:** v10.9.0  
+- **Network:** Sepolia Testnet via Infura RPC  
+
+### Commands Run
+```bash
+cd COS-Blockchain-Compliance-Tracker
+npm install
+npm run demo
+
+🌐 Connected to: Sepolia Testnet
+✅ COS™ Demo: Latest Block Number = 9667096
+┌─────────┬───────────────┬────────────┬─────────┬────────────────────────────┐
+│ (index) │ Event         │ TxID       │ Block   │ Timestamp                  │
+├─────────┼───────────────┼────────────┼─────────┼────────────────────────────┤
+│ 0       │ Audit Start   │ 0x123...   │ 9667096 │ 2025-11-20T07:11:24.446Z   │
+└─────────┴───────────────┴────────────┴─────────┴────────────────────────────┘
+Ethics-first governance: Transparency achieved.
+
+## ✅ Judge Checklist
+- [ ] Repo cloned successfully  
+- [ ] Dependencies installed without error  
+- [ ] `.env` configured with Infura Project ID  
+- [ ] `npm run demo` executed  
+- [ ] Blockchain audit table displayed with block number + timestamp  
+
+## 🛠️ Troubleshooting
+- **Error: ENOENT (package.json not found)** → Ensure you are inside the project folder:  
+  `cd COS-Blockchain-Compliance-Tracker`  
+- **Error: Missing .env file** → Copy `.env.example` → `.env` and insert your Infura Project ID.  
+- **npm audit warnings** → Run `npm audit fix`. Known warnings do not affect demo functionality.  
+- **Network issues** → Verify internet connection and Infura Project ID.  
+
+## 🎬 Demo Assets
+- **Screenshots:**  
+  ![Demo Output](assets/screenshots/demo_output.png)  
+  ![Environment Setup](assets/screenshots/env_setup.png)  
+
+- **Narration Script:**  
+  A 2‑minute script is provided for demo recording (see `/docs/narration.md`).
+
+## 📂 Repository Structure
+COS-Blockchain-Compliance-Tracker/
+├── demo.js                # Demo script
+├── package.json           # Dependencies
+├── .env.example           # Environment template
+├── README.md              # Documentation
+├── LICENSE                # Apache 2.0 license
+├── assets/
+│   └── screenshots/       # Demo proof images
+└── docs/                  # Whitepaper, manifesto, narration script
+
+## 📜 License
+Licensed under [Apache 2.0](LICENSE).
