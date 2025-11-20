@@ -23,16 +23,15 @@ COS™ Blockchain Compliance Tracker embeds **ethics‑first governance** into A
 
 ### ✨ Challenge Alignment
 
-#### 📝 Decentralized Community Notes
-- Logs compliance and oversight events as **fact‑check triples**.  
-- Publishes notes to DKG in JSON‑LD/RDF with provenance.  
-- Combats misinformation by linking ESG milestones to verifiable Tx IDs.  
+#### Decentralized Community Notes
+Ethics‑First Logging: Every compliance and oversight event is recorded as a fact‑check triple (Event → VerifiedBy → TxID), ensuring transparency and accountability.
+Provenance & Trust: Notes are published to the OriginTrail DKG in JSON‑LD/RDF format with provenance, guaranteeing that each ESG milestone is traceable to its source.
+Combating Misinformation: By linking sustainability claims (e.g., safety inspections, carbon permits, gender inclusion reports) to verifiable Tx IDs, COS™ prevents false reporting and deepfakes, reinforcing ethical governance.
 
 #### 🗣️ Social Graph Reputation
-- Maps oversight logs into **reputation scores** for auditors, contractors, and agencies.  
-- Scores computed using transparent signals (frequency of verified compliance events, ESG contributions).  
-- Published to DKG for querying, enabling trusted feeds and governance dashboards.  
-
+Accountability Scoring: Oversight logs are mapped into reputation scores for auditors, contractors, and agencies, rewarding ethical performance and exposing negligence.
+Transparent Signals: Scores are computed using frequency of verified compliance events and ESG contributions, ensuring fairness and openness.
+Community Impact: Published to the DKG for querying, these scores power trusted feeds and governance dashboards, giving donors, managers, and communities real‑time visibility into ethical performance.
 ---
 
 ### 🛠️ Technical Implementation
