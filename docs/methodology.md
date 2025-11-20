@@ -1,13 +1,10 @@
-Purpose: Document technical reproducibility in academic style.
+# Methodology — COS™ Blockchain Compliance Tracker
 
-Content:
+This document outlines the technical reproducibility of the COS™ Blockchain Compliance Tracker. It provides an academic‑style description of the layered architecture, ensuring transparency and verifiability across blockchain, knowledge graph, agent, and trust layers.
 
-Blockchain layer (Westend/Paseo testnets)
+---
 
-Knowledge layer (OriginTrail DKG JSON‑LD/RDF)
-
-Agent layer (MCP queries)
-
-Trust layer (reputation scores, x402 micropayments)
-
-This complements challenge_alignment.md but in a more technical, stepwise format.
+## 1. Blockchain Layer — Westend/Paseo Testnets
+- **Purpose:** Establish immutable compliance records with verifiable transaction IDs (TxIDs).
+- **Implementation:**
+  - Governance events (e.g., safety inspections, carbon permits, gender
