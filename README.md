@@ -77,3 +77,12 @@ COS™ Blockchain Compliance Tracker embeds **ethics‑first governance** into A
 
 ## 🔑 Keywords
 Governance · ESG · Blockchain · Compliance · Audit trail · Donor transparency · Ethics‑first · OriginTrail · Polkadot · DKG · MCP · x402
+
+---
+
+## 📘 References
+- COS™ Working Paper (Zenodo DOI): [10.5281/zenodo.17620309](https://doi.org/10.5281/zenodo.17620309)  
+- OriginTrail Global Hackathon 2025 Challenge Page: [Scaling Trust in the Age of AI](https://dorahacks.io/hackathon/origintrail-scaling-trust-ai/detail)  
+- Supporting academic and governance references are listed in `/docs/references.bib`
+
+---
