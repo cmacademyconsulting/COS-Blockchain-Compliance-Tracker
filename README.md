@@ -1,8 +1,3 @@
-Got it CCM — your README draft is strong, but it still mixes **Polkadot Westend/Paseo** instructions with your actual working **Sepolia demo**. For hackathon submission today, we need to make it judge‑friendly: clear Quick Start, consistent Judge Checklist, and aligned with the proof you’ve already generated.  
-
-Here’s the **cleaned‑up README.md** you can copy‑paste into your repo:
-
----
 
 ```markdown
 # 🏆 Hackathon Submission: OriginTrail Scaling Trust in the Age of AI
