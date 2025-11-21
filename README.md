@@ -1,3 +1,10 @@
+Got it CCM — your README draft is strong, but it still mixes **Polkadot Westend/Paseo** instructions with your actual working **Sepolia demo**. For hackathon submission today, we need to make it judge‑friendly: clear Quick Start, consistent Judge Checklist, and aligned with the proof you’ve already generated.  
+
+Here’s the **cleaned‑up README.md** you can copy‑paste into your repo:
+
+---
+
+```markdown
 # 🏆 Hackathon Submission: OriginTrail Scaling Trust in the Age of AI
 
 **Event:** [OriginTrail Global Hackathon 2025](https://dorahacks.io/hackathon/origintrail-scaling-trust-ai/detail)  
@@ -13,7 +20,37 @@
    git clone https://github.com/cmacademyconsulting/COS-Blockchain-Compliance-Tracker.git
    cd COS-Blockchain-Compliance-Tracker
    npm install
+   ```
 
+2. **Configure environment**
+   - Copy `.env.example` to `.env`
+   - Add your **Infura Project ID** and **Sepolia testnet PRIVATE_KEY**
+
+   Example:
+   ```ini
+   RPC_URL_SEPOLIA=https://sepolia.infura.io/v3/YOUR_PROJECT_ID
+   PRIVATE_KEY=0xYOUR_PRIVATE_KEY
+   ```
+
+3. **Run demo for governance events**
+   ```bash
+   npm run demo -- SafetyInspection
+   npm run demo -- CarbonPermit
+   npm run demo -- GenderInclusionReport
+   npm run demo -- AuditLog
+   npm run demo -- SustainabilityIndex
+   ```
+
+4. **Verify results**
+   - Each run outputs: Event, SHA256 Hash, TxID, Block, Timestamp
+   - Copy TxID into [Sepolia Etherscan](https://sepolia.etherscan.io/) to confirm on‑chain record
+
+5. **Review consolidated proof**
+   - See `/appendix/audit_table.csv` for all five governance events
+   - Each entry includes description, SHA256 hash, TxID, block number, timestamp
+
+6. **Check ethics commitments**
+   - See `/docs/ethics_statement.md` for governance principles
 
 ---
 
@@ -37,11 +74,10 @@ COS™ Blockchain Compliance Tracker embeds **ethics‑first governance** into A
 ---
 
 ## 🛠️ Technical Implementation
-- **Blockchain Layer:** Polkadot Westend/Paseo testnets (Tx IDs verified via Polkadot.js Apps).  
+- **Blockchain Layer:** Sepolia testnet (Tx IDs verified via Etherscan).  
 - **Knowledge Layer:** OriginTrail DKG Edge Node integration (Knowledge Assets published in JSON‑LD/RDF with provenance).  
 - **Agent Layer:** MCP agents query compliance notes and ESG metrics.  
 - **Trust Layer:** Reputation scores computed and exposed via DKG APIs.  
-- **Premium Access:** High‑confidence data gated via x402 micropayments.  
 - **Fallback Demo:** Plain‑text script ensures reproducibility across judge environments.  
 
 ---
@@ -60,10 +96,10 @@ COS™ Blockchain Compliance Tracker embeds **ethics‑first governance** into A
 - **Working Paper (Zenodo DOI):** https://doi.org/10.5281/zenodo.17620309  
 - **Judge Checklist:**  
   - Clone repo & install dependencies  
-  - Configure `.env` with Infura Project ID  
-  - Run demo (`npm run demo` or `npm.cmd run demo`)  
-  - Verify Tx IDs via Polkadot.js Apps + DKG Edge Node  
-  - Confirm compliance notes and reputation scores published to DKG  
+  - Configure `.env` with Infura Project ID + PRIVATE_KEY  
+  - Run demo for all five governance events  
+  - Verify Tx IDs via Sepolia Etherscan  
+  - Review `/appendix/audit_table.csv` for consolidated proof  
   - Watch demo video (2 min) showing governance event → Tx ID → DKG note → reputation score  
 
 ---
@@ -77,7 +113,7 @@ COS™ Blockchain Compliance Tracker embeds **ethics‑first governance** into A
 ---
 
 ## 🔑 Keywords
-Governance · ESG · Blockchain · Compliance · Audit trail · Donor transparency · Ethics‑first · OriginTrail · Polkadot · DKG · MCP · x402
+Governance · ESG · Blockchain · Compliance · Audit trail · Donor transparency · Ethics‑first · OriginTrail · Sepolia · DKG · MCP
 
 ---
 
@@ -85,5 +121,14 @@ Governance · ESG · Blockchain · Compliance · Audit trail · Donor transparen
 - COS™ Working Paper (Zenodo DOI): [10.5281/zenodo.17620309](https://doi.org/10.5281/zenodo.17620309)  
 - OriginTrail Global Hackathon 2025 Challenge Page: [Scaling Trust in the Age of AI](https://dorahacks.io/hackathon/origintrail-scaling-trust-ai/detail)  
 - Supporting academic and governance references are listed in `/docs/references.bib`
+```
 
 ---
+
+✅ This version is hackathon‑ready:  
+- Clear **Sepolia Quick Start**.  
+- Explicit **Judge Checklist**.  
+- References to CSV + Etherscan.  
+- Ethics statement included.  
+
+Would you like me to also draft the **`.env.example` file** so judges can configure quickly without touching sensitive keys?
