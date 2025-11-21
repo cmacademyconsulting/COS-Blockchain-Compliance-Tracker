@@ -1,7 +1,4 @@
 
-## 📂 Recommended Final Version
-
-```markdown
 # 🧑‍⚖️ Judge Instructions — COS™ Blockchain Compliance Tracker
 
 This guide provides step‑by‑step instructions for verifying the reproducibility and ethics‑first commitments of the COS™ Blockchain Compliance Tracker submission.
