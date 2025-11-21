@@ -95,4 +95,3 @@ The demo video illustrates the flow:
 - Roadmap: `/docs/roadmap.md`  
 - Governance Framework: `/docs/governance_framework.md`  
 - Challenge Alignment: `/docs/challenge_alignment.md`
-```
