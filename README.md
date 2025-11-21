@@ -6,13 +6,14 @@
 
 ---
 
-## 🚀 Quick Start
-1. Open https://polkadot.js.org/apps (Westend/Paseo).  
-2. Copy a Tx ID from `/appendix/audit_table.csv`.  
-3. Paste into the explorer, verify block number and account.  
-4. Run demo (`npm run demo` or `npm.cmd run demo`).  
-5. Confirm compliance notes and reputation scores published to OriginTrail DKG.  
-6. Review `/docs/ethics_statement.md` for governance commitments.  
+## 🚀 Quick Start (Sepolia Demo)
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/cmacademyconsulting/COS-Blockchain-Compliance-Tracker.git
+   cd COS-Blockchain-Compliance-Tracker
+   npm install
+
 
 ---
 
