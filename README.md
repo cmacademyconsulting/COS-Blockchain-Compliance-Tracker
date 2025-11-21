@@ -76,3 +76,12 @@ Governance · ESG · Blockchain · Compliance · Audit trail · Donor transparen
 - COS™ Working Paper (Zenodo DOI): [10.5281/zenodo.17620309](https://doi.org/10.5281/zenodo.17620309)  
 - OriginTrail Global Hackathon 2025 Challenge Page: [Scaling Trust in the Age of AI](https://dorahacks.io/hackathon/origintrail-scaling-trust-ai/detail)  
 - Supporting academic and governance references are listed in `/docs/references.bib`
+
+---
+
+## 🆕 What’s New (Nov 2025)
+- Added `/appendix/audit_table.csv` with consolidated proof of all five governance events  
+- Included `/docs/ethics_statement.md` outlining governance principles  
+- Published demo narration, slides, storyboard, and timing plan in `/docs/` for reproducibility  
+- Linked 2‑minute demo video in Submission Package  
+- Updated README with Judge Checklist for step‑by‑step verification
