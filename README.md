@@ -5,6 +5,13 @@
 **Theme:** Ethics‑First Governance for AI and Infrastructure Projects  
 
 ---
+## 🎥 Demo Video
+
+Watch the 2-minute demo here:  
+[![COS™ Demo Video](https://img.youtube.com/vi/8bb8-A9xRLc/0.jpg)](https://youtu.be/8bb8-A9xRLc)
+
+This video demonstrates the reproducibility flow:
+Governance Event → SHA256 Hash → TxID → Etherscan Verification → Audit Table → Ethics Pillars → Global Impact.
 
 ## 🔧 Project Overview
 COS™ Blockchain Compliance Tracker embeds **ethics‑first governance** into AI and donor‑funded infrastructure projects.  
