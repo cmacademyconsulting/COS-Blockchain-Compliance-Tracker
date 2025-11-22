@@ -8,10 +8,10 @@
 ## 🎥 Demo Video
 
 Watch the 2-minute demo here:  
-[![COS™ Demo Video](https://img.youtube.com/vi/8bb8-A9xRLc/0.jpg)](https://youtu.be/8bb8-A9xRLc)
+[![COS™ Demo Video](https://img.youtube.com/vi/8bb8-A9xRLc/0.jpg)](https://youtu.be/8bb8-A9xRLc)  
 
-This video demonstrates the reproducibility flow:
-Governance Event → SHA256 Hash → TxID → Etherscan Verification → Audit Table → Ethics Pillars → Global Impact.
+Direct link: https://youtu.be/8bb8-A9xRLc
+
 
 ## 🔧 Project Overview
 COS™ Blockchain Compliance Tracker embeds **ethics‑first governance** into AI and donor‑funded infrastructure projects.  
@@ -52,17 +52,18 @@ These records are extended into **OriginTrail DKG Knowledge Assets**, enabling v
 ---
 
 ## 📂 Submission Package
-- **GitHub Repo:** [link to repo]  
-- **Demo Video:** [(https://youtu.be/8bb8-A9xRLc)]  
+- **GitHub Repo:** https://github.com/cmacademyconsulting/COS-Blockchain-Compliance-Tracker  
+- **Demo Video:** https://youtu.be/8bb8-A9xRLc  
 - **Working Paper (Zenodo DOI):** https://doi.org/10.5281/zenodo.17620309  
 
 ### Judge Checklist
-- Clone repo & install dependencies  
-- Configure `.env` with Infura Project ID + PRIVATE_KEY  
-- Run demo for all five governance events  
-- Verify Tx IDs via Sepolia Etherscan  
-- Review `/appendix/audit_table.csv` for consolidated proof  
-- Watch demo video (2 min) showing governance event → Tx ID → DKG note → reputation score  
+1. Clone repo & install dependencies  
+2. Configure `.env` with Infura Project ID + PRIVATE_KEY  
+3. Run demo for all five governance events  
+4. Verify Tx IDs via Sepolia Etherscan  
+5. Review `/appendix/audit_table.csv` for consolidated proof  
+6. Watch demo video (2 min) showing governance event → Tx ID → DKG note → reputation score  
+
 
 ---
 
@@ -71,6 +72,7 @@ These records are extended into **OriginTrail DKG Knowledge Assets**, enabling v
 - **Project Managers:** Streamline compliance oversight with transparent reputation scoring and accountability.  
 - **Communities:** Assured ethical delivery of projects with sustainability indices backed by immutable records.  
 - **AI Governance Researchers:** Access reproducible framework for embedding ethics into AI workflows.  
+- **Judges:** Experience a fully reproducible demo with transparent click‑paths, ensuring credibility and ease of verification.
 
 ---
 
