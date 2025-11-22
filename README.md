@@ -97,6 +97,10 @@ To make verification simple and judge‑friendly, we provide two complementary r
 5. Review `/appendix/audit_table.csv` for consolidated proof  
 6. Watch demo video (2 min) showing governance event → Tx ID → DKG note → reputation score  
 
+## 📂 Proofs
+- `/appendix/audit_table.csv` — consolidated governance events (human‑readable table)  
+- `/proofs/demo_run.json` — machine‑readable demo output for reproducibility  
+
 ---
 
 ## 📊 Impact
