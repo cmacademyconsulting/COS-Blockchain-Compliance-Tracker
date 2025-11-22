@@ -46,7 +46,7 @@ These records are extended into **OriginTrail DKG Knowledge Assets**, enabling v
 
 ## 📂 Submission Package
 - **GitHub Repo:** [link to repo]  
-- **Demo Video:** [link to demo video]  
+- **Demo Video:** [(https://youtu.be/8bb8-A9xRLc)]  
 - **Working Paper (Zenodo DOI):** https://doi.org/10.5281/zenodo.17620309  
 
 ### Judge Checklist
