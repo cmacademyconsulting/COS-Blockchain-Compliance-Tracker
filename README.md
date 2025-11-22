@@ -1,3 +1,5 @@
+
+```markdown
 # 🏆 Hackathon Submission: OriginTrail Scaling Trust in the Age of AI
 
 **Event:** [OriginTrail Global Hackathon 2025](https://dorahacks.io/hackathon/origintrail-scaling-trust-ai/detail)  
@@ -5,13 +7,30 @@
 **Theme:** Ethics‑First Governance for AI and Infrastructure Projects  
 
 ---
+
 ## 🎥 Demo Video
 
 Watch the 2-minute demo here:  
 [![COS™ Demo Video](https://img.youtube.com/vi/8bb8-A9xRLc/0.jpg)](https://youtu.be/8bb8-A9xRLc)  
 
-Direct link: https://youtu.be/8bb8-A9xRLc
+Direct link: https://youtu.be/8bb8-A9xRLc  
 
+---
+
+## ⚡ Quick Start (Judge Path)
+
+```bash
+git clone https://github.com/cmacademyconsulting/COS-Blockchain-Compliance-Tracker.git
+cd COS-Blockchain-Compliance-Tracker
+npm install
+cp .env.example .env   # add Infura Project ID + PRIVATE_KEY
+npm run demo -- SafetyInspection
+```
+
+👉 Expected output: Event · SHA‑256 Hash · TxID · Block · Timestamp  
+Verify TxID on [Sepolia Etherscan](https://sepolia.etherscan.io/).
+
+---
 
 ## 🔧 Project Overview
 COS™ Blockchain Compliance Tracker embeds **ethics‑first governance** into AI and donor‑funded infrastructure projects.  
@@ -56,6 +75,8 @@ These records are extended into **OriginTrail DKG Knowledge Assets**, enabling v
 - **Demo Video:** https://youtu.be/8bb8-A9xRLc  
 - **Working Paper (Zenodo DOI):** https://doi.org/10.5281/zenodo.17620309  
 
+---
+
 ## 🧑‍⚖️ Judge Resources
 
 To make verification simple and judge‑friendly, we provide two complementary resources:
@@ -76,7 +97,6 @@ To make verification simple and judge‑friendly, we provide two complementary r
 5. Review `/appendix/audit_table.csv` for consolidated proof  
 6. Watch demo video (2 min) showing governance event → Tx ID → DKG note → reputation score  
 
-
 ---
 
 ## 📊 Impact
@@ -84,7 +104,7 @@ To make verification simple and judge‑friendly, we provide two complementary r
 - **Project Managers:** Streamline compliance oversight with transparent reputation scoring and accountability.  
 - **Communities:** Assured ethical delivery of projects with sustainability indices backed by immutable records.  
 - **AI Governance Researchers:** Access reproducible framework for embedding ethics into AI workflows.  
-- **Judges:** Experience a fully reproducible demo with transparent click‑paths, ensuring credibility and ease of verification.
+- **Judges:** Experience a fully reproducible demo with transparent click‑paths, ensuring credibility and ease of verification.  
 
 ---
 
@@ -106,3 +126,6 @@ Governance · ESG · Blockchain · Compliance · Audit trail · Donor transparen
 - Published demo narration, slides, storyboard, and timing plan in `/docs/` for reproducibility  
 - Linked 2‑minute demo video in Submission Package  
 - Updated README with Judge Checklist for step‑by‑step verification
+```
+
+Would you like me to also draft the **architecture diagram description (nodes + arrows)** so you can quickly sketch or generate `/docs/architecture.png` to complement this README?
