@@ -1,5 +1,4 @@
 
-```markdown
 # 🏆 Hackathon Submission: OriginTrail Scaling Trust in the Age of AI
 
 **Event:** [OriginTrail Global Hackathon 2025](https://dorahacks.io/hackathon/origintrail-scaling-trust-ai/detail)  
@@ -33,6 +32,7 @@ Verify TxID on [Sepolia Etherscan](https://sepolia.etherscan.io/).
 ---
 
 ## 🔧 Project Overview
+
 COS™ Blockchain Compliance Tracker embeds **ethics‑first governance** into AI and donor‑funded infrastructure projects.  
 It transforms governance events into **immutable blockchain records** linked to transaction IDs, block numbers, and timestamps.  
 These records are extended into **OriginTrail DKG Knowledge Assets**, enabling verifiable compliance, oversight, and sustainability metrics.
@@ -54,6 +54,7 @@ These records are extended into **OriginTrail DKG Knowledge Assets**, enabling v
 ---
 
 ## 🛠️ Technical Implementation
+
 - **Blockchain Layer:** Sepolia testnet (Tx IDs verified via Etherscan).  
 - **Knowledge Layer:** OriginTrail DKG Edge Node integration (Knowledge Assets published in JSON‑LD/RDF with provenance).  
 - **Agent Layer:** MCP agents query compliance notes and ESG metrics.  
@@ -63,6 +64,7 @@ These records are extended into **OriginTrail DKG Knowledge Assets**, enabling v
 ---
 
 ## ⚖️ Ethics‑First Commitment
+
 - **Transparency:** Immutable blockchain records linked to DKG Knowledge Assets.  
 - **Accountability:** Oversight logs mapped to verifiable Tx IDs.  
 - **Sustainability:** ESG metrics aggregated into a Sustainability Index.  
@@ -71,6 +73,7 @@ These records are extended into **OriginTrail DKG Knowledge Assets**, enabling v
 ---
 
 ## 📂 Submission Package
+
 - **GitHub Repo:** https://github.com/cmacademyconsulting/COS-Blockchain-Compliance-Tracker  
 - **Demo Video:** https://youtu.be/8bb8-A9xRLc  
 - **Working Paper (Zenodo DOI):** https://doi.org/10.5281/zenodo.17620309  
@@ -81,11 +84,8 @@ These records are extended into **OriginTrail DKG Knowledge Assets**, enabling v
 
 To make verification simple and judge‑friendly, we provide two complementary resources:
 
-- [Judge Instructions](./judge_instructions.md)  
-  Step‑by‑step reproducibility guide with exact commands, demo video, and ethics commitments.
-
-- [Judge Checklist](./judge_checklist.md)  
-  One‑page tick‑box table for quick verification of TxIDs, DKG assets, and reproducibility proofs.
+- [Judge Instructions](./judge_instructions.md) — step‑by‑step reproducibility guide with exact commands, demo video, and ethics commitments.  
+- [Judge Checklist](./judge_checklist.md) — one‑page tick‑box table for quick verification of TxIDs, DKG assets, and reproducibility proofs.  
 
 👉 Judges can choose either the **detailed walkthrough** or the **quick checklist** depending on their time and preference.
 
@@ -100,6 +100,7 @@ To make verification simple and judge‑friendly, we provide two complementary r
 ---
 
 ## 📊 Impact
+
 - **Donors:** Gain confidence in fund allocation through verifiable ESG notes and ethical assurance.  
 - **Project Managers:** Streamline compliance oversight with transparent reputation scoring and accountability.  
 - **Communities:** Assured ethical delivery of projects with sustainability indices backed by immutable records.  
@@ -109,23 +110,23 @@ To make verification simple and judge‑friendly, we provide two complementary r
 ---
 
 ## 🔑 Keywords
+
 Governance · ESG · Blockchain · Compliance · Audit trail · Donor transparency · Ethics‑first · OriginTrail · Sepolia · DKG · MCP  
 
 ---
 
 ## 📘 References
+
 - COS™ Working Paper (Zenodo DOI): [10.5281/zenodo.17620309](https://doi.org/10.5281/zenodo.17620309)  
 - OriginTrail Global Hackathon 2025 Challenge Page: [Scaling Trust in the Age of AI](https://dorahacks.io/hackathon/origintrail-scaling-trust-ai/detail)  
-- Supporting academic and governance references are listed in `/docs/references.bib`
+- Supporting academic and governance references are listed in `/docs/references.bib`  
 
 ---
 
 ## 🆕 What’s New (Nov 2025)
+
 - Added `/appendix/audit_table.csv` with consolidated proof of all five governance events  
 - Included `/docs/ethics_statement.md` outlining governance principles  
 - Published demo narration, slides, storyboard, and timing plan in `/docs/` for reproducibility  
 - Linked 2‑minute demo video in Submission Package  
 - Updated README with Judge Checklist for step‑by‑step verification
-```
-
-Would you like me to also draft the **architecture diagram description (nodes + arrows)** so you can quickly sketch or generate `/docs/architecture.png` to complement this README?
