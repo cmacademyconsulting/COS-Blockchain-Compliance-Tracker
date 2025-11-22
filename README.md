@@ -56,6 +56,18 @@ These records are extended into **OriginTrail DKG Knowledge Assets**, enabling v
 - **Demo Video:** https://youtu.be/8bb8-A9xRLc  
 - **Working Paper (Zenodo DOI):** https://doi.org/10.5281/zenodo.17620309  
 
+## 🧑‍⚖️ Judge Resources
+
+To make verification simple and judge‑friendly, we provide two complementary resources:
+
+- [Judge Instructions](./judge_instructions.md)  
+  Step‑by‑step reproducibility guide with exact commands, demo video, and ethics commitments.
+
+- [Judge Checklist](./judge_checklist.md)  
+  One‑page tick‑box table for quick verification of TxIDs, DKG assets, and reproducibility proofs.
+
+👉 Judges can choose either the **detailed walkthrough** or the **quick checklist** depending on their time and preference.
+
 ### Judge Checklist
 1. Clone repo & install dependencies  
 2. Configure `.env` with Infura Project ID + PRIVATE_KEY  
